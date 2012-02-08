@@ -1,0 +1,350 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9368AC4214E04AF500E61473 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9368AC4114E04AF500E61473 /* Foundation.framework */; };
+		9368AC4414E04AF500E61473 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9368AC4314E04AF500E61473 /* UIKit.framework */; };
+		9368AC5314E04AF500E61473 /* testNotificationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9368AC5214E04AF500E61473 /* testNotificationController.m */; };
+		93E3BF5914E0DB550036A32F /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93E3BF5814E0DB550036A32F /* MediaPlayer.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9368AC3E14E04AF500E61473 /* testNotification */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = testNotification; sourceTree = BUILT_PRODUCTS_DIR; };
+		9368AC4114E04AF500E61473 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9368AC4314E04AF500E61473 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9368AC4814E04AF500E61473 /* control.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = control.txt; path = Package/DEBIAN/control.txt; sourceTree = "<group>"; };
+		9368AC4914E04AF500E61473 /* control */ = {isa = PBXFileReference; lastKnownFileType = text; name = control; path = Package/DEBIAN/control; sourceTree = "<group>"; };
+		9368AC4A14E04AF500E61473 /* preinst */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; name = preinst; path = Package/DEBIAN/preinst; sourceTree = "<group>"; };
+		9368AC4B14E04AF500E61473 /* postinst */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; name = postinst; path = Package/DEBIAN/postinst; sourceTree = "<group>"; };
+		9368AC4C14E04AF500E61473 /* prerm */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; name = prerm; path = Package/DEBIAN/prerm; sourceTree = "<group>"; };
+		9368AC4D14E04AF500E61473 /* postrm */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; name = postrm; path = Package/DEBIAN/postrm; sourceTree = "<group>"; };
+		9368AC4F14E04AF500E61473 /* PackageVersion.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = PackageVersion.plist; sourceTree = "<group>"; };
+		9368AC5014E04AF500E61473 /* testNotification-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "testNotification-Prefix.pch"; sourceTree = "<group>"; };
+		9368AC5114E04AF500E61473 /* testNotificationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = testNotificationController.h; sourceTree = "<group>"; };
+		9368AC5214E04AF500E61473 /* testNotificationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testNotificationController.m; sourceTree = "<group>"; };
+		9368AC5814E04AF500E61473 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = Package/System/Library/WeeAppPlugins/testNotification.bundle/Info.plist; sourceTree = "<group>"; };
+		9368AC5914E04AF500E61473 /* InfoPlist.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = InfoPlist.strings; path = Package/System/Library/WeeAppPlugins/testNotification.bundle/InfoPlist.strings; sourceTree = "<group>"; };
+		9368AC5A14E04AF500E61473 /* WeeAppBackground@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "WeeAppBackground@2x.png"; path = "Package/System/Library/WeeAppPlugins/testNotification.bundle/WeeAppBackground@2x.png"; sourceTree = "<group>"; };
+		9368AC5B14E04AF500E61473 /* WeeAppBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = WeeAppBackground.png; path = Package/System/Library/WeeAppPlugins/testNotification.bundle/WeeAppBackground.png; sourceTree = "<group>"; };
+		93E3BF5814E0DB550036A32F /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9368AC3A14E04AF500E61473 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93E3BF5914E0DB550036A32F /* MediaPlayer.framework in Frameworks */,
+				9368AC4214E04AF500E61473 /* Foundation.framework in Frameworks */,
+				9368AC4414E04AF500E61473 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9368AC3214E04AF400E61473 = {
+			isa = PBXGroup;
+			children = (
+				9368AC4514E04AF500E61473 /* testNotification */,
+				9368AC4014E04AF500E61473 /* Frameworks */,
+				9368AC3F14E04AF500E61473 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9368AC3F14E04AF500E61473 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9368AC3E14E04AF500E61473 /* testNotification */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9368AC4014E04AF500E61473 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				93E3BF5814E0DB550036A32F /* MediaPlayer.framework */,
+				9368AC4114E04AF500E61473 /* Foundation.framework */,
+				9368AC4314E04AF500E61473 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9368AC4514E04AF500E61473 /* testNotification */ = {
+			isa = PBXGroup;
+			children = (
+				9368AC5114E04AF500E61473 /* testNotificationController.h */,
+				9368AC5214E04AF500E61473 /* testNotificationController.m */,
+				9368AC4614E04AF500E61473 /* Package */,
+				9368AC4E14E04AF500E61473 /* Supporting Files */,
+			);
+			path = testNotification;
+			sourceTree = "<group>";
+		};
+		9368AC4614E04AF500E61473 /* Package */ = {
+			isa = PBXGroup;
+			children = (
+				9368AC4714E04AF500E61473 /* DEBIAN */,
+				9368AC5414E04AF500E61473 /* System */,
+			);
+			name = Package;
+			sourceTree = "<group>";
+		};
+		9368AC4714E04AF500E61473 /* DEBIAN */ = {
+			isa = PBXGroup;
+			children = (
+				9368AC4814E04AF500E61473 /* control.txt */,
+				9368AC4914E04AF500E61473 /* control */,
+				9368AC4A14E04AF500E61473 /* preinst */,
+				9368AC4B14E04AF500E61473 /* postinst */,
+				9368AC4C14E04AF500E61473 /* prerm */,
+				9368AC4D14E04AF500E61473 /* postrm */,
+			);
+			name = DEBIAN;
+			sourceTree = "<group>";
+		};
+		9368AC4E14E04AF500E61473 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9368AC4F14E04AF500E61473 /* PackageVersion.plist */,
+				9368AC5014E04AF500E61473 /* testNotification-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9368AC5414E04AF500E61473 /* System */ = {
+			isa = PBXGroup;
+			children = (
+				9368AC5514E04AF500E61473 /* Library */,
+			);
+			name = System;
+			sourceTree = "<group>";
+		};
+		9368AC5514E04AF500E61473 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				9368AC5614E04AF500E61473 /* WeeAppPlugins */,
+			);
+			name = Library;
+			sourceTree = "<group>";
+		};
+		9368AC5614E04AF500E61473 /* WeeAppPlugins */ = {
+			isa = PBXGroup;
+			children = (
+				9368AC5714E04AF500E61473 /* ___PACKAGENAME___ */,
+			);
+			name = WeeAppPlugins;
+			sourceTree = "<group>";
+		};
+		9368AC5714E04AF500E61473 /* ___PACKAGENAME___ */ = {
+			isa = PBXGroup;
+			children = (
+				9368AC5814E04AF500E61473 /* Info.plist */,
+				9368AC5914E04AF500E61473 /* InfoPlist.strings */,
+				9368AC5A14E04AF500E61473 /* WeeAppBackground@2x.png */,
+				9368AC5B14E04AF500E61473 /* WeeAppBackground.png */,
+			);
+			name = "___PACKAGENAME___";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		9368AC3B14E04AF500E61473 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		9368AC3D14E04AF500E61473 /* testNotification */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9368AC5E14E04AF500E61473 /* Build configuration list for PBXNativeTarget "testNotification" */;
+			buildPhases = (
+				9368AC3914E04AF500E61473 /* Sources */,
+				9368AC3A14E04AF500E61473 /* Frameworks */,
+				9368AC3B14E04AF500E61473 /* Headers */,
+				9368AC3C14E04AF500E61473 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = testNotification;
+			productName = testNotification;
+			productReference = 9368AC3E14E04AF500E61473 /* testNotification */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9368AC3414E04AF400E61473 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 9368AC3714E04AF400E61473 /* Build configuration list for PBXProject "testNotification" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9368AC3214E04AF400E61473;
+			productRefGroup = 9368AC3F14E04AF500E61473 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9368AC3D14E04AF500E61473 /* testNotification */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9368AC3C14E04AF500E61473 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/iOSOpenDev/bin/iosod --xcbp";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9368AC3914E04AF500E61473 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9368AC5314E04AF500E61473 /* testNotificationController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		9368AC5C14E04AF500E61473 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(iOSOpenDevPath)/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LIBRARY_SEARCH_PATHS = "$(iOSOpenDevPath)/lib/**";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				iOSOpenDevPath = /opt/iOSOpenDev;
+			};
+			name = Release;
+		};
+		9368AC5D14E04AF500E61473 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(iOSOpenDevPath)/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LIBRARY_SEARCH_PATHS = "$(iOSOpenDevPath)/lib/**";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = NO;
+				iOSOpenDevPath = /opt/iOSOpenDev;
+			};
+			name = Debug;
+		};
+		9368AC5F14E04AF500E61473 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_EXTENSION = "";
+				EXECUTABLE_NAME = testNotification;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "testNotification/testNotification-Prefix.pch";
+				INSTALL_PATH = /System/Library/WeeAppPlugins/testNotification.bundle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				iOSOpenDevCopyOnBuild = NO;
+				iOSOpenDevDevice = "dmnlks-iPhone.local";
+				iOSOpenDevInstallOnProfiling = YES;
+				iOSOpenDevRespringOnInstall = YES;
+				iOSOpenDevUsePackageVersionPList = YES;
+			};
+			name = Release;
+		};
+		9368AC6014E04AF500E61473 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_EXTENSION = "";
+				EXECUTABLE_NAME = testNotification;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "testNotification/testNotification-Prefix.pch";
+				INSTALL_PATH = /System/Library/WeeAppPlugins/testNotification.bundle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				iOSOpenDevCopyOnBuild = NO;
+				iOSOpenDevDevice = "dmnlks-iPhone.local";
+				iOSOpenDevInstallOnProfiling = YES;
+				iOSOpenDevRespringOnInstall = YES;
+				iOSOpenDevUsePackageVersionPList = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9368AC3714E04AF400E61473 /* Build configuration list for PBXProject "testNotification" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9368AC5C14E04AF500E61473 /* Release */,
+				9368AC5D14E04AF500E61473 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9368AC5E14E04AF500E61473 /* Build configuration list for PBXNativeTarget "testNotification" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9368AC5F14E04AF500E61473 /* Release */,
+				9368AC6014E04AF500E61473 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9368AC3414E04AF400E61473 /* Project object */;
+}
