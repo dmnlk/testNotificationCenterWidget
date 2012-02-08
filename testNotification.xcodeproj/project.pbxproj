@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		932E5F2114E3021900354DFB /* toucesImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 932E5F1F14E3021800354DFB /* toucesImageView.h */; };
+		932E5F2214E3021900354DFB /* toucesImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 932E5F2014E3021800354DFB /* toucesImageView.m */; };
 		9368AC4214E04AF500E61473 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9368AC4114E04AF500E61473 /* Foundation.framework */; };
 		9368AC4414E04AF500E61473 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9368AC4314E04AF500E61473 /* UIKit.framework */; };
 		9368AC5314E04AF500E61473 /* testNotificationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9368AC5214E04AF500E61473 /* testNotificationController.m */; };
@@ -14,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		932E5F1F14E3021800354DFB /* toucesImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = toucesImageView.h; sourceTree = "<group>"; };
+		932E5F2014E3021800354DFB /* toucesImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = toucesImageView.m; sourceTree = "<group>"; };
 		9368AC3E14E04AF500E61473 /* testNotification */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = testNotification; sourceTree = BUILT_PRODUCTS_DIR; };
 		9368AC4114E04AF500E61473 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		9368AC4314E04AF500E61473 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -80,6 +84,8 @@
 			children = (
 				9368AC5114E04AF500E61473 /* testNotificationController.h */,
 				9368AC5214E04AF500E61473 /* testNotificationController.m */,
+				932E5F1F14E3021800354DFB /* toucesImageView.h */,
+				932E5F2014E3021800354DFB /* toucesImageView.m */,
 				9368AC4614E04AF500E61473 /* Package */,
 				9368AC4E14E04AF500E61473 /* Supporting Files */,
 			);
@@ -159,6 +165,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				932E5F2114E3021900354DFB /* toucesImageView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -230,6 +237,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9368AC5314E04AF500E61473 /* testNotificationController.m in Sources */,
+				932E5F2214E3021900354DFB /* toucesImageView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

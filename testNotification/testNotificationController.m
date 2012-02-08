@@ -81,6 +81,7 @@
         [_view addSubview:album];
         [album release];
         artworkimage=[[UIImageView alloc]initWithFrame:CGRectMake(5, 5, 70, 70)];
+        artworkimage.userInteractionEnabled=YES;
         [_view addSubview:artworkimage];
         [artworkimage release];
 	}

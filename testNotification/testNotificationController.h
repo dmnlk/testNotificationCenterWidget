@@ -10,13 +10,14 @@
 #import <UIKit/UIKit.h>
 #import <BBWeeAppController-Protocol.h>
 #import <MediaPlayer/MediaPlayer.h>
+#import "toucesImageView.h"
 @interface testNotificationController : NSObject <BBWeeAppController>
 {
     UIView *_view;
     UILabel *artist;
     UILabel *title;
     UILabel *album;
-    UIImageView *artworkimage;
+    toucesImageView *artworkimage;
     UIImage *artwork;
 }
 
@@ -25,5 +26,5 @@
 @property(nonatomic,retain)UILabel *title;
 @property(nonatomic,retain)UILabel *album;
 @property(nonatomic,retain)UIImage *artwork;
-@property(nonatomic,retain)UIImageView *artworkimage;
+@property(nonatomic,retain)toucesImageView *artworkimage;
 @end
