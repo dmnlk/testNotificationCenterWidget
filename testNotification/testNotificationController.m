@@ -52,7 +52,7 @@
 		[lbl release];
         */
         
-        artist =[[UILabel alloc]initWithFrame:CGRectMake(70, 5, 200, 20)];
+        artist =[[UILabel alloc]initWithFrame:CGRectMake(80, 5, 200, 20)];
         UIFont *font =[artist font];
         UIFont *newFont = [UIFont fontWithName:[font fontName] size:12.0];
         [artist setFont:newFont];
@@ -60,14 +60,14 @@
         artist.textColor=[UIColor whiteColor];
         artist.text=@"";
         artist.textAlignment=UITextAlignmentCenter;
-        title =[[UILabel alloc]initWithFrame:CGRectMake(70, 25, 200, 31)];
+        title =[[UILabel alloc]initWithFrame:CGRectMake(80, 25, 200, 31)];
         newFont = [UIFont fontWithName:[font fontName] size:15.0];
         [title setFont:newFont];
         title.backgroundColor = [UIColor clearColor];
         title.textColor=[UIColor whiteColor];
         title.text=@"";
         title.textAlignment=UITextAlignmentCenter;
-        album =[[UILabel alloc]initWithFrame:CGRectMake(70, 54, 200, 20)];
+        album =[[UILabel alloc]initWithFrame:CGRectMake(80, 54, 200, 20)];
         newFont = [UIFont fontWithName:[font fontName] size:12.0];
         [album setFont:newFont];
         album.backgroundColor = [UIColor clearColor];
@@ -80,7 +80,7 @@
         [title release];
         [_view addSubview:album];
         [album release];
-        artworkimage=[[UIImageView alloc]initWithFrame:CGRectMake(5, 5, 70, 70)];
+        artworkimage=[[toucesImageView alloc]initWithFrame:CGRectMake(5, 5, 70, 70)];
         artworkimage.userInteractionEnabled=YES;
         [_view addSubview:artworkimage];
         [artworkimage release];
