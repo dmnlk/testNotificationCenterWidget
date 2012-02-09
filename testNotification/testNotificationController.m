@@ -12,7 +12,6 @@
 @synthesize artist;
 @synthesize album;
 @synthesize title;
-@synthesize artwork;
 @synthesize artworkimage;
 -(id)init
 {

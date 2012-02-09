@@ -18,13 +18,12 @@
     UILabel *title;
     UILabel *album;
     toucesImageView *artworkimage;
-    UIImage *artwork;
+   
 }
 
 - (UIView *)view;
 @property(nonatomic,retain)UILabel *artist;
 @property(nonatomic,retain)UILabel *title;
 @property(nonatomic,retain)UILabel *album;
-@property(nonatomic,retain)UIImage *artwork;
 @property(nonatomic,retain)toucesImageView *artworkimage;
 @end
