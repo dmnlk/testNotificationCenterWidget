@@ -51,7 +51,7 @@
 		[lbl release];
         */
         
-        artist =[[UILabel alloc]initWithFrame:CGRectMake(80, 5, 200, 20)];
+        artist =[[UILabel alloc]initWithFrame:CGRectMake(80, 1, 200, 20)];
         UIFont *font =[artist font];
         UIFont *newFont = [UIFont fontWithName:[font fontName] size:12.0];
         [artist setFont:newFont];
@@ -66,7 +66,7 @@
         title.textColor=[UIColor whiteColor];
         title.text=@"";
         title.textAlignment=UITextAlignmentCenter;
-        album =[[UILabel alloc]initWithFrame:CGRectMake(80, 54, 200, 20)];
+        album =[[UILabel alloc]initWithFrame:CGRectMake(80, 49, 200, 20)];
         newFont = [UIFont fontWithName:[font fontName] size:12.0];
         [album setFont:newFont];
         album.backgroundColor = [UIColor clearColor];
